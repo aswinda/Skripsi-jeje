@@ -1,20 +1,20 @@
 [0] Config.pm:343> INFO - This is Biber 2.5
 [0] Config.pm:346> INFO - Logfile is 'kolokium_ekstensi.blg'
-[54] biber-MSWIN64:290> INFO - === 
-[87] Biber.pm:351> INFO - Reading 'kolokium_ekstensi.bcf'
-[237] Biber.pm:773> INFO - Using all citekeys in bib section 0
-[258] Biber.pm:3493> INFO - Processing section 0
-[289] Biber.pm:3657> INFO - Looking for bibtex format file 'pustaka.bib' for section 0
-[299] bibtex.pm:1187> INFO - Decoding LaTeX character macros into UTF-8
-[308] bibtex.pm:1048> INFO - Found BibTeX data source 'pustaka.bib'
-[311] Utils.pm:149> WARN - Duplicate entry key: 'Mudinas:2012:CLL:2346676.2346681' in file 'pustaka.bib', skipping ...
-[336] Utils.pm:149> WARN - Datamodel: Entry 'PAK10.385' (pustaka.bib): Invalid format '19-21' of date field 'date' - ignoring
-[381] Utils.pm:149> WARN - Name in key 'ZHANG2011' is empty (probably consecutive 'and'): skipping name
-[402] Utils.pm:149> WARN - BibTeX subsystem: substring 5, warning: empty substring
-[533] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[534] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[534] Biber.pm:3306> INFO - Sorting list 'nyt/global/' of type 'entry' with scheme 'nyt' and locale 'en-US'
-[534] Biber.pm:3310> INFO - No sort tailoring available for locale 'en-US'
-[583] bbl.pm:526> INFO - Writing 'kolokium_ekstensi.bbl' with encoding 'UTF-8'
-[589] bbl.pm:619> INFO - Output to kolokium_ekstensi.bbl
-[594] Biber.pm:108> INFO - WARNINGS: 4
+[55] biber-MSWIN64:290> INFO - === 
+[94] Biber.pm:351> INFO - Reading 'kolokium_ekstensi.bcf'
+[241] Biber.pm:773> INFO - Using all citekeys in bib section 0
+[262] Biber.pm:3493> INFO - Processing section 0
+[294] Biber.pm:3657> INFO - Looking for bibtex format file 'pustaka.bib' for section 0
+[326] bibtex.pm:1187> INFO - Decoding LaTeX character macros into UTF-8
+[335] bibtex.pm:1048> INFO - Found BibTeX data source 'pustaka.bib'
+[337] Utils.pm:149> WARN - Duplicate entry key: 'Mudinas:2012:CLL:2346676.2346681' in file 'pustaka.bib', skipping ...
+[413] Utils.pm:149> WARN - Name in key 'ZHANG2011' is empty (probably consecutive 'and'): skipping name
+[416] Utils.pm:149> WARN - Datamodel: Entry 'PAK10.385' (pustaka.bib): Invalid format '19-21' of date field 'date' - ignoring
+[426] Utils.pm:149> WARN - BibTeX subsystem: substring 5, warning: empty substring
+[572] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[572] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[572] Biber.pm:3306> INFO - Sorting list 'nyt/global/' of type 'entry' with scheme 'nyt' and locale 'en-US'
+[572] Biber.pm:3310> INFO - No sort tailoring available for locale 'en-US'
+[622] bbl.pm:526> INFO - Writing 'kolokium_ekstensi.bbl' with encoding 'UTF-8'
+[628] bbl.pm:619> INFO - Output to kolokium_ekstensi.bbl
+[634] Biber.pm:108> INFO - WARNINGS: 4
