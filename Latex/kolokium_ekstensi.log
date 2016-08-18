@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.8.11)  18 AUG 2016 07:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.8.11)  18 AUG 2016 07:22
 entering extended mode
 **./kolokium_ekstensi.tex
 (kolokium_ekstensi.tex
@@ -1723,7 +1723,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 ]) (metode.tex
-<gambar/langkahkerja.png, id=22, 305.64188pt x 344.78813pt>
+<gambar/langkahkerja.png, id=21, 305.64188pt x 344.78813pt>
 File: gambar/langkahkerja.png Graphic file (type png)
 
 <use gambar/langkahkerja.png>
@@ -1766,7 +1766,7 @@ Overfull \hbox (6.26994pt too wide) in paragraph at lines 82--83
 eda
  []
 
-<gambar/steming.png, id=51, 353.06906pt x 146.79843pt>
+<gambar/steming.png, id=50, 353.06906pt x 146.79843pt>
 File: gambar/steming.png Graphic file (type png)
 
 <use gambar/steming.png>
@@ -1872,7 +1872,7 @@ Package Fancyhdr Warning: \headheight is too small (11.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[6] <gambar/rocio.png, id=95, 298.86656pt x 157.33781pt>
+[6] <gambar/rocio.png, id=94, 298.86656pt x 157.33781pt>
 File: gambar/rocio.png Graphic file (type png)
 
 <use gambar/rocio.png>
@@ -1966,6 +1966,12 @@ tm/m/n/10.95 (-20) .
  []
 
 
+Package Fancyhdr Warning: \headheight is too small (11.0pt): 
+ Make it at least 12.0pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[9]
 Overfull \hbox (14.55786pt too wide) in paragraph at lines 148--148
 [][]\OT1/ptm/m/n/10.95 (-20) Zhang \OT1/ptm/m/it/10.95 (-20) et al. \OT1/ptm/m/
 n/10.95 (-20) 2011. ``Com-bin-ing Lexicon-based and Learning-
@@ -1979,7 +1985,9 @@ Package Fancyhdr Warning: \headheight is too small (11.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[9]
+[10
+
+]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 151.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 151.
  (kolokium_ekstensi.aux)
@@ -1997,13 +2005,13 @@ Package logreq Info: Writing requests to 'kolokium_ekstensi.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 151.
  ) 
 Here is how much of TeX's memory you used:
- 27213 strings out of 493335
- 462709 string characters out of 3139260
- 942085 words of memory out of 3000000
- 29963 multiletter control sequences out of 15000+200000
- 78858 words of font info for 296 fonts, out of 3000000 for 9000
+ 27220 strings out of 493335
+ 462776 string characters out of 3139260
+ 956146 words of memory out of 3000000
+ 29965 multiletter control sequences out of 15000+200000
+ 78977 words of font info for 298 fonts, out of 3000000 for 9000
  1219 hyphenation exceptions out of 8191
- 60i,12n,94p,10423b,1471s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 60i,12n,94p,10423b,1470s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
 s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX
  2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fon
@@ -2017,9 +2025,9 @@ Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files/MiKTeX 2
 fonts/type1/urw/symbol/usyr.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/ti
 mes/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C
 :/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on kolokium_ekstensi.pdf (9 pages, 222786 bytes).
+Output written on kolokium_ekstensi.pdf (10 pages, 226077 bytes).
 PDF statistics:
- 228 PDF objects out of 1000 (max. 8388607)
- 67 named destinations out of 1000 (max. 500000)
+ 234 PDF objects out of 1000 (max. 8388607)
+ 69 named destinations out of 1000 (max. 500000)
  52240 words of extra memory for PDF output out of 61914 (max. 10000000)
 
