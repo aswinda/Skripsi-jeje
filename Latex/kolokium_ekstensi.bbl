@@ -394,6 +394,39 @@
       \field{title}{Feature Selection for Text Categorisation}
       \field{year}{2009}
     \endentry
+    \entry{Joachims:1997:PAR:645526.657278}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=0e5ae7e30da87e8ba62ced27d4e6f2aa}{%
+           family={Joachims},
+           family_i={J\bibinitperiod},
+           given={Thorsten},
+           given_i={T\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {San Francisco, CA, USA}%
+      }
+      \list{publisher}{1}{%
+        {Morgan Kaufmann Publishers Inc.}%
+      }
+      \strng{namehash}{0e5ae7e30da87e8ba62ced27d4e6f2aa}
+      \strng{fullhash}{0e5ae7e30da87e8ba62ced27d4e6f2aa}
+      \field{sortinit}{J}
+      \field{sortinithash}{ec3950a647c092421b9fcca6d819504a}
+      \field{labelyear}{1997}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the Fourteenth International Conference on Machine Learning}
+      \field{isbn}{1-55860-486-3}
+      \field{series}{ICML '97}
+      \field{title}{A Probabilistic Analysis of the Rocchio Algorithm with TFIDF for Text Categorization}
+      \field{year}{1997}
+      \field{pages}{143\bibrangedash 151}
+      \range{pages}{9}
+      \verb{url}
+      \verb http://dl.acm.org/citation.cfm?id=645526.657278
+      \endverb
+    \endentry
     \entry{LIU2010}{thesis}{}
       \name{author}{1}{}{%
         {{uniquename=0,hash=9c6fb2af2964f3126cfd4e505a38daca}{%

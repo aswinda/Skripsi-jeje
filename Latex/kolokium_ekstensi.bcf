@@ -2104,13 +2104,18 @@
     <bcf:citekey order="4">ADITYAWAN2014</bcf:citekey>
     <bcf:citekey order="5">ADITYAWAN2014</bcf:citekey>
     <bcf:citekey order="6">ZHANG2011</bcf:citekey>
-    <bcf:citekey order="7">MANNING2008</bcf:citekey>
-    <bcf:citekey order="8">MANNING2008</bcf:citekey>
-    <bcf:citekey order="9">MANNING2008</bcf:citekey>
+    <bcf:citekey order="7">Meyer2008</bcf:citekey>
+    <bcf:citekey order="8">tala2003study</bcf:citekey>
+    <bcf:citekey order="9">tala2003study</bcf:citekey>
     <bcf:citekey order="10">MANNING2008</bcf:citekey>
     <bcf:citekey order="11">MANNING2008</bcf:citekey>
     <bcf:citekey order="12">MANNING2008</bcf:citekey>
     <bcf:citekey order="13">MANNING2008</bcf:citekey>
+    <bcf:citekey order="14">MANNING2008</bcf:citekey>
+    <bcf:citekey order="15">Joachims:1997:PAR:645526.657278</bcf:citekey>
+    <bcf:citekey order="16">Joachims:1997:PAR:645526.657278</bcf:citekey>
+    <bcf:citekey order="17">MANNING2008</bcf:citekey>
+    <bcf:citekey order="18">MANNING2008</bcf:citekey>
     <bcf:citekey order="0">*</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="nyt/global/" type="entry" sortscheme="nyt" sortnamekeyscheme="global" labelprefix="">

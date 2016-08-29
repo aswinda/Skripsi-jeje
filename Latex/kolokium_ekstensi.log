@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.8.11)  18 AUG 2016 07:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.8.10)  27 AUG 2016 08:56
 entering extended mode
 **./kolokium_ekstensi.tex
 (kolokium_ekstensi.tex
@@ -632,7 +632,7 @@ File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 \Gin@req@height=\dimen119
 \Gin@req@width=\dimen120
 )
-(C:\Users\Aswin\AppData\Roaming\MiKTeX\2.9\tex\latex\xcolor\xcolor.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
@@ -655,7 +655,7 @@ Package: babel 2016/04/23 3.9r The Babel package
 *************************************
 * Local config file bblopts.cfg used
 *
-(C:\Users\Aswin\AppData\Roaming\MiKTeX\2.9\tex\latex\arabi\bblopts.cfg
+("C:\Program Files\MiKTeX 2.9\tex\latex\arabi\bblopts.cfg"
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
@@ -671,7 +671,7 @@ File: babel.def 2016/04/23 3.9r Babel common definitions
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
 ))
-(C:\Users\Aswin\AppData\Roaming\MiKTeX\2.9\tex\latex\booktabs\booktabs.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\booktabs\booktabs.sty"
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \heavyrulewidth=\dimen122
 \lightrulewidth=\dimen123
@@ -690,10 +690,10 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \@thisruleclass=\count117
 \@lastruleclass=\count118
 \@thisrulewidth=\dimen134
-)
-(tabulary.sty
+) (tabulary.sty
 Package: tabulary 2014/06/11 v0.10 tabulary package (DPC)
- ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
 Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
 \col@sep=\dimen135
 \extrarowheight=\dimen136
@@ -706,11 +706,11 @@ Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
 \tymin=\dimen138
 \tymax=\dimen139
 \TY@tablewidth=\dimen140
-)
-(algorithm2e.sty
+) (algorithm2e.sty
 Package: algorithm2e 2013/01/06 v5.00 algorithms environments
 \c@AlgoLine=\count120
- (xspace.sty) (relsize.sty
+
+(xspace.sty) (relsize.sty
 Package: relsize 2013/03/29 ver 4.1
 )
 ********************************************************
@@ -782,10 +782,10 @@ Package fixltx2e Warning: fixltx2e is not required with releases after 2015
 )
 \@dblbotnum=\count127
 \c@dblbotnumber=\count128
-) (C:\Users\Aswin\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption.sty
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption.sty"
 Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
 
-(C:\Users\Aswin\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption3.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption3.sty"
 Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 67.
 \captionmargin=\dimen155
@@ -799,7 +799,7 @@ Package caption3 Info: TeX engine: e-TeX on input line 67.
 \c@ContinuedFloat=\count129
 Package caption Info: hyperref package is loaded.
 )
-(C:\Users\Aswin\AppData\Roaming\MiKTeX\2.9\tex\latex\fancyhdr\fancyhdr.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty"
 \fancy@headwidth=\skip68
 \f@ncyO@elh=\skip69
 \f@ncyO@erh=\skip70
@@ -809,10 +809,10 @@ Package caption Info: hyperref package is loaded.
 \f@ncyO@erf=\skip74
 \f@ncyO@olf=\skip75
 \f@ncyO@orf=\skip76
-)
-(lastpage.sty
+) (lastpage.sty
 Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
-) (titlesec.sty
+)
+(titlesec.sty
 Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
 \ttl@box=\box36
 \beforetitleunit=\skip77
@@ -841,7 +841,7 @@ Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \enit@inbox=\box37
 \enitdp@description=\count132
 ))
-(C:\Users\Aswin\AppData\Roaming\MiKTeX\2.9\tex\latex\microtype\microtype.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\microtype\microtype.sty"
 Package: microtype 2016/05/14 v2.6a Micro-typographical refinements (RS)
 \MT@toks=\toks28
 \MT@count=\count133
@@ -850,8 +850,7 @@ LaTeX Info: Redefining \textls on input line 774.
 LaTeX Info: Redefining \textmicrotypecontext on input line 1310.
 \MT@listname@count=\count134
 
-(C:\Users\Aswin\AppData\Roaming\MiKTeX\2.9\tex\latex\microtype\microtype-pdftex
-.def
+("C:\Program Files\MiKTeX 2.9\tex\latex\microtype\microtype-pdftex.def"
 File: microtype-pdftex.def 2016/05/14 v2.6a Definitions specific to pdftex (RS)
 
 LaTeX Info: Redefining \lsstyle on input line 916.
@@ -860,21 +859,21 @@ LaTeX Info: Redefining \lslig on input line 916.
 )
 Package microtype Info: Loading configuration file microtype.cfg.
 
-(C:\Users\Aswin\AppData\Roaming\MiKTeX\2.9\tex\latex\microtype\microtype.cfg
+("C:\Program Files\MiKTeX 2.9\tex\latex\microtype\microtype.cfg"
 File: microtype.cfg 2016/05/14 v2.6a microtype main configuration file (RS)
 ))
 (kolokium_layout.tex
-(C:\Users\Aswin\AppData\Roaming\MiKTeX\2.9\tex\latex\adjustbox\adjustbox.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\adjustbox\adjustbox.sty"
 Package: adjustbox 2012/05/21 v1.0 Adjusting TeX boxes (trim, clip, ...)
 
-(C:\Users\Aswin\AppData\Roaming\MiKTeX\2.9\tex\latex\adjustbox\adjcalc.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\adjustbox\adjcalc.sty"
 Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
 -ends (calc, etex, pgfmath)
 )
-(C:\Users\Aswin\AppData\Roaming\MiKTeX\2.9\tex\latex\adjustbox\trimclip.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\adjustbox\trimclip.sty"
 Package: trimclip 2012/05/16 v1.0 Trim and clip general TeX material
 
-(C:\Users\Aswin\AppData\Roaming\MiKTeX\2.9\tex\latex\collectbox\collectbox.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\collectbox\collectbox.sty"
 Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
 \collectedbox=\box38
 )
@@ -883,7 +882,8 @@ Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
 \tc@urx=\dimen172
 \tc@ury=\dimen173
 Package trimclip Info: Using driver 'tc-pdftex.def'.
-(C:\Users\Aswin\AppData\Roaming\MiKTeX\2.9\tex\latex\adjustbox\tc-pdftex.def
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\adjustbox\tc-pdftex.def"
 File: tc-pdftex.def 2012/05/13 v1.0 Clipping driver for pdftex
 ))
 \adjbox@Width=\dimen174
@@ -891,7 +891,7 @@ File: tc-pdftex.def 2012/05/13 v1.0 Clipping driver for pdftex
 \adjbox@Depth=\dimen176
 \adjbox@Totalheight=\dimen177
 
-(C:\Users\Aswin\AppData\Roaming\MiKTeX\2.9\tex\latex\ifoddpage\ifoddpage.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\ifoddpage\ifoddpage.sty"
 Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
 \c@checkoddpage=\count135
 )
@@ -907,7 +907,7 @@ Package hyperref Info: Option `breaklinks' set `true' on input line 23.
 Package hyperref Info: Option `bookmarksopen' set `false' on input line 23.
 )
 (hype_indonesia.tex) (kolokium_information.tex)
-(C:\Users\Aswin\AppData\Roaming\MiKTeX\2.9\tex\latex\colortbl\colortbl.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\colortbl\colortbl.sty"
 Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
 \everycr=\toks29
 \minrowclearance=\skip82
@@ -964,26 +964,26 @@ Package: multicol 2016/04/07 v1.8p multicolumn formatting (FMi)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
 \bigstrutjot=\dimen189
 )
-(C:\Users\Aswin\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\biblatex.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\biblatex.sty"
 Package: biblatex 2016/05/14 v3.4 programmable bibliographies (PK/JW/AB)
 
-(C:\Users\Aswin\AppData\Roaming\MiKTeX\2.9\tex\latex\iftex\iftex.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\iftex\iftex.sty"
 Package: iftex 2013/04/04 v0.2 Provides if(tex) conditional for PDFTeX, XeTeX, 
 and LuaTeX
 )
-(C:\Users\Aswin\AppData\Roaming\MiKTeX\2.9\tex\latex\etoolbox\etoolbox.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.sty"
 Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count146
 )
-(C:\Users\Aswin\AppData\Roaming\MiKTeX\2.9\tex\latex\logreq\logreq.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\logreq\logreq.sty"
 Package: logreq 2010/08/04 v1.0 xml request logger
 \lrq@indent=\count147
 
-(C:\Users\Aswin\AppData\Roaming\MiKTeX\2.9\tex\latex\logreq\logreq.def
+("C:\Program Files\MiKTeX 2.9\tex\latex\logreq\logreq.def"
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 ))
-(C:\Users\Aswin\AppData\Roaming\MiKTeX\2.9\tex\latex\xstring\xstring.sty
-(C:\Users\Aswin\AppData\Roaming\MiKTeX\2.9\tex\generic\xstring\xstring.tex
+("C:\Program Files\MiKTeX 2.9\tex\latex\xstring\xstring.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\xstring\xstring.tex"
 \@xs@message=\write3
 \integerpart=\count148
 \decimalpart=\count149
@@ -1044,7 +1044,7 @@ Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
-(C:\Users\Aswin\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\blx-dm.def)
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\blx-dm.def")
 Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'authoryear.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
@@ -1124,13 +1124,13 @@ Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
 
-(C:\Users\Aswin\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\blx-compat.def
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\blx-compat.def"
 File: blx-compat.def 2016/05/14 v3.4 biblatex compatibility (PK/JW/AB)
 )
 Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
 
-(C:\Users\Aswin\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\biblatex.def
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\biblatex.def"
 File: biblatex.def 2016/05/14 v3.4 biblatex compatibility (PK/JW/AB)
 \c@textcitecount=\count323
 \c@textcitetotal=\count324
@@ -1143,13 +1143,12 @@ File: biblatex.def 2016/05/14 v3.4 biblatex compatibility (PK/JW/AB)
 Package biblatex Info: Trying to load bibliography style 'authoryear'...
 Package biblatex Info: ... file 'authoryear.bbx' found.
 
-(C:\Users\Aswin\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\bbx\authoryear.bb
-x
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\bbx\authoryear.bbx"
 File: authoryear.bbx 2016/05/14 v3.4 biblatex bibliography style (PK/JW/AB)
 Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
 
-(C:\Users\Aswin\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\bbx\standard.bbx
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\bbx\standard.bbx"
 File: standard.bbx 2016/05/14 v3.4 biblatex bibliography style (PK/JW/AB)
 \c@bbx:relatedcount=\count330
 \c@bbx:relatedtotal=\count331
@@ -1157,8 +1156,7 @@ File: standard.bbx 2016/05/14 v3.4 biblatex bibliography style (PK/JW/AB)
 Package biblatex Info: Trying to load citation style 'authoryear'...
 Package biblatex Info: ... file 'authoryear.cbx' found.
 
-(C:\Users\Aswin\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\cbx\authoryear.cb
-x
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\cbx\authoryear.cbx"
 File: authoryear.cbx 2016/05/14 v3.4 biblatex citation style (PK/JW/AB)
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
@@ -1170,13 +1168,15 @@ Package biblatex Info: Redefining '\textcites'.
 )
 Package biblatex Info: Trying to load configuration file...
 Package biblatex Info: ... file 'biblatex.cfg' found.
- (C:\Users\Aswin\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\biblatex.cfg
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\biblatex.cfg"
 File: biblatex.cfg 
-)) (C:\Users\Aswin\AppData\Roaming\MiKTeX\2.9\tex\latex\xpatch\xpatch.sty
-(C:\Users\Aswin\AppData\Roaming\MiKTeX\2.9\tex\latex\l3kernel\expl3.sty
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\xpatch\xpatch.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\l3kernel\expl3.sty"
 Package: expl3 2016/05/18 v6512 L3 programming layer (loader) 
 
-(C:\Users\Aswin\AppData\Roaming\MiKTeX\2.9\tex\latex\l3kernel\expl3-code.tex
+("C:\Program Files\MiKTeX 2.9\tex\latex\l3kernel\expl3-code.tex"
 Package: expl3 2016/05/18 v6512 L3 programming layer (code)
 L3 Module: l3bootstrap 2016/02/12 v6412 L3 Bootstrap code
 L3 Module: l3names 2016/03/11 v6433 L3 Namespace for primitives
@@ -1283,15 +1283,14 @@ L3 Module: l3candidates 2016/05/13 v6484 L3 Experimental additions to l3kernel
 \l__coffin_scaled_width_dim=\dimen276
 L3 Module: l3luatex 2016/03/26 v6465 L3 Experimental LuaTeX-specific functions
 )
-(C:\Users\Aswin\AppData\Roaming\MiKTeX\2.9\tex\latex\l3kernel\l3pdfmode.def
+("C:\Program Files\MiKTeX 2.9\tex\latex\l3kernel\l3pdfmode.def"
 File: l3pdfmode.def 2016/03/26 v6465 L3 Experimental driver: PDF mode
 \l__driver_color_stack_int=\count354
 \l__driver_tmp_box=\box81
 ))
 Package: xpatch 2012/10/02 v0.3 Extending etoolbox patching commands
 
-(C:\Users\Aswin\AppData\Roaming\MiKTeX\2.9\tex\latex\l3packages\xparse\xparse.s
-ty
+("C:\Program Files\MiKTeX 2.9\tex\latex\l3packages\xparse\xparse.sty"
 Package: xparse 2016/05/18 v6512 L3 Experimental document command parser
 \l__xparse_current_arg_int=\count355
 \l__xparse_m_args_int=\count356
@@ -1479,11 +1478,11 @@ Package: xparse 2016/05/18 v6512 L3 Experimental document command parser
 . 
 . Defining command \xshowbibdriver with sig. 'm' on line 193.
 .................................................
-) (abstrak.tex)
+)
+(abstrak.tex)
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
-
-(C:\Users\Aswin\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\lbx\english.lbx
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\lbx\english.lbx"
 File: english.lbx 2016/05/14 v3.4 biblatex localization (PK/JW/AB)
 )
 
@@ -1533,7 +1532,7 @@ LaTeX Info: Redefining \nameref on input line 121.
 \openout5 = `kolokium_ekstensi.out'.
 
 
-(C:\Users\Aswin\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
+("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count363
 \scratchdimen=\dimen277
@@ -1606,7 +1605,7 @@ Package microtype Info: Using default expansion set `basictext'.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
-(C:\Users\Aswin\AppData\Roaming\MiKTeX\2.9\tex\latex\microtype\mt-ptm.cfg
+("C:\Program Files\MiKTeX 2.9\tex\latex\microtype\mt-ptm.cfg"
 File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 )
 Package biblatex Info: Input encoding 'utf8' detected.
@@ -1689,16 +1688,15 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 126.
 
-(C:\Users\Aswin\AppData\Roaming\MiKTeX\2.9\tex\latex\microtype\mt-msa.cfg
+("C:\Program Files\MiKTeX 2.9\tex\latex\microtype\mt-msa.cfg"
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-(C:\Users\Aswin\AppData\Roaming\MiKTeX\2.9\tex\latex\microtype\mt-msb.cfg
+("C:\Program Files\MiKTeX 2.9\tex\latex\microtype\mt-msb.cfg"
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <8> not available
 (Font)              Font shape `OT1/phv/b/n' tried instead on input line 126.
-
-(pendahuluan.tex
+ (pendahuluan.tex
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <12> not available
 (Font)              Font shape `OT1/phv/b/n' tried instead on input line 4.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
@@ -1719,7 +1717,7 @@ n-tuk menge-
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [1{C:/Users/Aswin/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+ [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
 ]) (metode.tex
@@ -1749,9 +1747,9 @@ Overfull \hbox (4.32507pt too wide) in paragraph at lines 22--42
  []
 
 
-Overfull \hbox (3.68985pt too wide) in paragraph at lines 73--74
+Overfull \hbox (11.6016pt too wide) in paragraph at lines 73--74
 \OT1/ptm/m/n/10.95 (-20) umum di-gu-nakan dan memi-liki ni-lai in-for-masi nol 
-(Meyer
+([]Feinerer
  []
 
 
@@ -1760,23 +1758,15 @@ Package Fancyhdr Warning: \headheight is too small (11.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[3]
-Overfull \hbox (6.26994pt too wide) in paragraph at lines 82--83
-\OT1/ptm/m/n/10.95 (-20) adalah kata yang memi-liki ke-samaan makna tetapi berb
-eda
- []
-
-<gambar/steming.png, id=52, 353.06906pt x 146.79843pt>
+[3] <gambar/steming.png, id=57, 353.06906pt x 146.79843pt>
 File: gambar/steming.png Graphic file (type png)
 
 <use gambar/steming.png>
 Package pdftex.def Info: gambar/steming.png used on input line 86.
 (pdftex.def)             Requested size: 200.0pt x 83.1563pt.
 
-Overfull \hbox (6.90204pt too wide) in paragraph at lines 125--126
-[]\OT1/ptm/m/n/10.95 (-20) Sedangkan \OT1/ptm/m/it/10.95 (-20) Su-per-vised fea
--ture se-lec-tion \OT1/ptm/m/n/10.95 (-20) adalah metode
- []
+Underfull \vbox (badness 1442) has occurred while \output is active []
+
 
 
 Package Fancyhdr Warning: \headheight is too small (11.0pt): 
@@ -1785,9 +1775,9 @@ Package Fancyhdr Warning: \headheight is too small (11.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [4 <./gambar/steming.png>]
-Overfull \hbox (13.09074pt too wide) in paragraph at lines 143--145
-\OT1/ptm/m/n/10.95 (-20) Pada anal-i-sis sen-ti-men klasi-fikasi di-gu-nakan un
--tuk mengkat-
+Overfull \hbox (2.80553pt too wide) in paragraph at lines 143--145
+\OT1/ptm/m/n/10.95 (-20) adalah peng-go-longkan atau men-gelom-pokkan su-atu do
+ku-
  []
 
 
@@ -1798,25 +1788,12 @@ LaTeX Font Warning: Command \normalsize invalid in math mode on input line 151.
 
 
 
-Overfull \hbox (7.39197pt too wide) in paragraph at lines 157--158
-\OT1/ptm/m/n/10.95 (-20) ngan ke-hadi-ran atau bobot dari term-term terse-but. 
-Metode
- []
-
-
 Package Fancyhdr Warning: \headheight is too small (11.0pt): 
  Make it at least 12.0pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
 [5]
-Overfull \hbox (6.10498pt too wide) in paragraph at lines 159--160
-[]\OT1/ptm/m/it/10.95 (-20) Na[]ve bayes \OT1/ptm/m/n/10.95 (-20) dan \OT1/ptm
-/m/it/10.95 (-20) Roc-chio \OT1/ptm/m/n/10.95 (-20) sama-sama memi-liki kelema-
-
- []
-
-
 Overfull \hbox (3.4307pt too wide) in paragraph at lines 163--164
 \OT1/ptm/m/n/10.95 (-20) ([]Man-ning \OT1/ptm/m/it/10.95 (-20) et al. [][]\OT1/
 ptm/m/n/10.95 (-20) 2008[][]). Pada model Multi-no-mial Bernoulli
@@ -1842,13 +1819,7 @@ Overfull \hbox (0.58134pt too wide) in paragraph at lines 192--193
 dalah strategi re-for-mu-lasi query
  []
 
-
-Overfull \hbox (7.83975pt too wide) in paragraph at lines 192--193
-\OT1/ptm/m/n/10.95 (-20) (Joachims 2013). Dalam sik-lus \OT1/ptm/m/it/10.95 (-2
-0) rel-e-vance feed-back\OT1/ptm/m/n/10.95 (-20) , kepada
- []
-
-<gambar/rocio.png, id=80, 298.86656pt x 157.33781pt>
+<gambar/rocio.png, id=87, 298.86656pt x 157.33781pt>
 File: gambar/rocio.png Graphic file (type png)
  <use gambar/rocio.png>
 Package pdftex.def Info: gambar/rocio.png used on input line 198.
@@ -1861,9 +1832,16 @@ Package Fancyhdr Warning: \headheight is too small (11.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [6 <./gambar/rocio.png>]
-Overfull \hbox (6.12054pt too wide) in paragraph at lines 228--230
-\OT1/ptm/m/n/10.95 (-20) Tahapan eval-u-asi adalah taha-pan un-tuk menge-tahui 
-tingkat
+Overfull \hbox (5.59167pt too wide) in paragraph at lines 228--230
+\OT1/ptm/m/n/10.95 (-20) menghi-tung ni-lai akurasi, \OT1/ptm/m/it/10.95 (-20) 
+re-call\OT1/ptm/m/n/10.95 (-20) , \OT1/ptm/m/it/10.95 (-20) pre-ci-sion\OT1/ptm
+/m/n/10.95 (-20) , dan \OT1/ptm/m/it/10.95 (-20) F-measure
+ []
+
+
+Overfull \hbox (0.42052pt too wide) in paragraph at lines 228--230
+\OT1/ptm/m/n/10.95 (-20) se-leksi fi-tur, akan di-hi-tung pelu-angnya berdasark
+an kelas-
  []
 
 
@@ -1964,13 +1942,13 @@ Package logreq Info: Writing requests to 'kolokium_ekstensi.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 151.
  ) 
 Here is how much of TeX's memory you used:
- 27228 strings out of 493335
- 462877 string characters out of 3139260
- 956104 words of memory out of 3000000
- 29971 multiletter control sequences out of 15000+200000
- 76810 words of font info for 302 fonts, out of 3000000 for 9000
- 1219 hyphenation exceptions out of 8191
- 60i,12n,94p,10423b,1477s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 27252 strings out of 493335
+ 461834 string characters out of 3139260
+ 957299 words of memory out of 3000000
+ 29978 multiletter control sequences out of 15000+200000
+ 77413 words of font info for 308 fonts, out of 3000000 for 9000
+ 1225 hyphenation exceptions out of 8191
+ 60i,12n,94p,10423b,1483s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
 s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX
  2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fon
@@ -1979,13 +1957,13 @@ public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/cour
 ier/ucrr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb
 ><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvbo8a.pfb><C:/Program 
 Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files/MiKTeX 2
-.9/fonts/type1/urw/helvetic/uhvro8a.pfb><C:/Users/Aswin/AppData/Roaming/MiKTeX/
-2.9/fonts/type1/urw/symbol/usyr.pfb><C:/Users/Aswin/AppData/Roaming/MiKTeX/2.9/
-fonts/type1/urw/symbol/usyr.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/ti
-mes/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on kolokium_ekstensi.pdf (9 pages, 213560 bytes).
+.9/fonts/type1/urw/helvetic/uhvro8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
+1/urw/symbol/usyr.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/symbol/usyr.
+pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program F
+iles/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on kolokium_ekstensi.pdf (9 pages, 215017 bytes).
 PDF statistics:
- 210 PDF objects out of 1000 (max. 8388607)
- 63 named destinations out of 1000 (max. 500000)
+ 216 PDF objects out of 1000 (max. 8388607)
+ 65 named destinations out of 1000 (max. 500000)
  52240 words of extra memory for PDF output out of 61914 (max. 10000000)
 

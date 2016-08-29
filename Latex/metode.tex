@@ -46,7 +46,7 @@ Tabel \ref{tab:strukturdatatwitter} merupakan informasi struktur data Twitter ya
 
 \subsection*{Indexing}
 
-Setelah data didapatkan dan memiliki sentimen tahap selanjutnya yaitu \textit{indexing}. \textit{Indexing} merupakan proses persiapan yang dilakukan terhadap dokumen sehingga dokumen siap untuk diproses. Proses \textit{indexing} dibagi menjadi dua proses, yaitu \textit{document indexing} dan \textit{term indexing}. Dari \textit{term indexing} akan dihasilkan koleksi kata yang akan digunakan untuk meningkatkan performansi pencarian pada tahap selanjutnya. Selain itu, teknik \textit{indexing} ini juga dilakukan agar hasil yang diperoleh lebih baik. Karena kebanyakan \textit{tweet} hanya berisi tautan dan tidak menunjukkan sentimen tertentu, dan penulisannya ditulis dalam bahasa asing (Parikh dan Movassate 2014). Bahasa asing yang dimaksud dalam penelitian adalah kata – kata yang dalam penulisannya menggunakan pengabungan antara alfanumerik dan simbol – simbol lainnya. Ada beberapa tahapan  yang dilakukan didalam proses \textit{indexing} diantaranya \textit{tokenizing}, pengahapusan \textit{stopwords}, normalisasi kata, \textit{stemming}, dan pembuatan \textit{document term matrix}.
+Setelah data didapatkan dan memiliki sentimen tahap selanjutnya yaitu \textit{indexing}. \textit{Indexing} merupakan proses persiapan yang dilakukan terhadap dokumen sehingga dokumen siap untuk diproses. Proses \textit{indexing} dibagi menjadi dua proses, yaitu \textit{document indexing} dan \textit{term indexing}. Dari \textit{term indexing} akan dihasilkan koleksi kata yang akan digunakan untuk meningkatkan performansi pencarian pada tahap selanjutnya. Selain itu, teknik \textit{indexing} ini juga dilakukan agar hasil yang diperoleh lebih baik. Karena kebanyakan \textit{tweet} hanya berisi tautan dan tidak menunjukkan sentimen tertentu, dan penulisannya ditulis dalam bahasa asing (Parikh dan Movassate 2014). Bahasa asing yang dimaksud dalam penelitian adalah kata – kata yang dalam penulisannya menggunakan pengabungan antara alfanumerik dan simbol – simbol lainnya. Ada beberapa tahapan  yang dilakukan didalam proses \textit{indexing} diantaranya \textit{tokenizing}, pengahapusan \textit{stopwords}, normalisasi kata, \textit{stemming}, dan pembuatan \textit{ term document matrix}.
 
 
 \subsubsection*{Tokenizing}
@@ -70,7 +70,7 @@ Tabel \ref{tab:tokenizing} merupakan contoh hasil proses \textit{tokenizing}, se
 
 \subsubsection*{Penghapusan Stopwords}
 
-\textit{Stopwords} merupakan kata – kata atau term yang tidak berhubungan dan tidak memiliki makna atau informasi yang berhubungan dengan dokumen, walaupun kata tersebut sering muncul pada dokumen. \textit{Stopwords} adalah sebuah kata-kata dalam bahasa tertentu yang sangat umum digunakan dan memiliki nilai informasi nol (Meyer et.al . 2008). Penghapusan kata tersebut tidak akan mengubah makna dan isi dari informasi tweet, beberapa contoh stopwords dalam bahasa  Indonesia diantaranya: yang, juga, dari, dia, kami, kamu, aku, saya, ini, dan itu. Pada penelitian ini digunakan dataset daftar \textit{stopword} yang  didapatkan dari penelitian Tala (2003) sebanyak 759 kata. Dataset penelitian Tala inilah yang nantinya akan digunakan untuk menghapus \textit{stopword} pada data \textit{tweet}.
+\textit{Stopwords} merupakan kata – kata atau term yang tidak berhubungan dan tidak memiliki makna atau informasi yang berhubungan dengan dokumen, walaupun kata tersebut sering muncul pada dokumen. \textit{Stopwords} adalah sebuah kata-kata dalam bahasa tertentu yang sangat umum digunakan dan memiliki nilai informasi nol (\cite{Meyer2008}). Penghapusan kata tersebut tidak akan mengubah makna dan isi dari informasi tweet, beberapa contoh stopwords dalam bahasa  Indonesia diantaranya: yang, juga, dari, dia, kami, kamu, aku, saya, ini, dan itu. Pada penelitian ini digunakan dataset daftar \textit{stopword} yang  didapatkan dari penelitian \citeauthor{tala2003study} (\cite*{tala2003study}) sebanyak 759 kata. Dataset penelitian Tala inilah yang nantinya akan digunakan untuk menghapus \textit{stopword} pada data \textit{tweet}.
 
 
 \subsubsection*{Normalisasi Kata}
@@ -90,9 +90,9 @@ Normalisasi kata merupakan proses penggantian kata yang tidak baku menjadi kata 
 
 Tahap \textit{stemming} bertujuan untuk mengurangi jumlah kata dan mendapatkan kata dasar yang benar-benar sesuai. Untuk itu penghapusan kata dan berbagai variasi lainnya seperti \textit{prefix} dan \textit{suffix} perlu dilakukan. Penelitian ini menggunakan algoritma Nazief dan Adriani (1996) dan kamus kata dasar  yang digunakan sebanyak 28.526 kata.
 
-\subsubsection*{Pembuatan Document Term Matrix (DTM)}
+\subsubsection*{Pembuatan Term Document Matrix (TDM)}
 
-\textit{Term Document Matrix} (TDM) dilakukan untuk menghitung jumlah kemunculan kata pada dokumen (Nadilah 2016). Cara yang paling umum untuk merepresentasikan teks ke dalam bentuk matrik adalah melalui pembuatan DTM. DTM dapat diekspor dari korpus dan digunakan sebagai mekanisme \textit{bag-of-words}. Pendekatan ini menghasilkan matrik dengan id dokumen sebagai baris dan \textit{term} sebagai kolom. Setiap elemen matrik yang ada merupakan representasi dari frekuensi kemunculan kata.
+\textit{Term Document Matrix} (TDM) dilakukan untuk menghitung jumlah kemunculan kata pada dokumen (Nadilah 2016). Cara yang paling umum untuk merepresentasikan teks ke dalam bentuk matrik adalah melalui pembuatan TDM. Pendekatan ini menghasilkan matrik dengan id dokumen sebagai baris dan \textit{term} sebagai kolom. Setiap elemen matrik yang ada merupakan representasi dari frekuensi kemunculan kata.
 Sebagai contoh ada dua dokumen dengan id 1 dan 2 mempunyai kata yang sama yaitu “Saya suka makan nasi dan saya suka ayam goreng” dan “ayam goreng”. Tabel \ref{tab:dtm} menunjukkan contoh DTM yang terbentuk.
 .
 
@@ -104,7 +104,7 @@ Sebagai contoh ada dua dokumen dengan id 1 dan 2 mempunyai kata yang sama yaitu 
 			\toprule
 			ID & saya & suka & makan & nasi & dan & ayam \\
 			\midrule
-			1 & 2 & 2 & 1 & 1 & 1 & 1 \\
+			1 & 1 & 1 & 1 & 1 & 1 & 1 \\
 			2 & 0 & 0 & 0 & 0 & 1 & 1 \\
 			\bottomrule
 		\end{tabular}
@@ -189,7 +189,7 @@ P(t_k|C) = \frac{T_{ct}}{\sum _{t' \in V} T_{ct'} + B}
 \end{equation}
 
 \subsubsection*{Metode Rocchio}
-Klasifikasi ini merupakan salah satu metode pembelajaran \textit{supervised document classification}. Metode \textit{Rocchio relevance feedback} adalah strategi reformulasi query paling populer karena sering digunakan untuk membantu user pemula suatu \textit{information retrieval systems} (Joachims 2013). Dalam siklus \textit{relevance feedback}, kepada user disajikan hasil pencarian dokumen, setelah itu user dapat memeriksa dan menandai dokumen yang benar-benar relevan Klasifikasi yang digunakan pada penelitian ini adalah fungsi klasifikasi dengan basis vektor, yaitu metode klasifikasi Rocchio. Klasifikasi rocchio merepresentasikan data ke dalam sebuah vektor. Kedekatan kesamaan isi dihitung dari kedekatan sudut yang terbentuk antara bobot data training dan bobot data test menggunakan aturan sodinus. Untuk menghitung bobot setiap kata dalam dokumen digunakan skema pembobotan TFIDF (Term Frequency / Invers Document Frequency) karena komponen heuristic utama adalah dalam klasifikasi rocchio yaitu skema pembobtan tfidf, untuk itu metode pembelajaran rocchio disebut juga dengan TFIDF Classifiers (Joachihms 1997). Pendekatan ini menggunakan perhitungan jarak atau kemiripan suatu data dengan pusat sebuah kelas. Metode ini membagi ruang vektor menjadi beberapa bagian berdasarkan centroid yang ada. 
+Klasifikasi ini merupakan salah satu metode pembelajaran \textit{supervised document classification}. Metode \textit{Rocchio relevance feedback} adalah strategi reformulasi query paling populer karena sering digunakan untuk membantu user pemula suatu \textit{information retrieval systems} (\cite{Joachims:1997:PAR:645526.657278}). Dalam siklus \textit{relevance feedback}, kepada user disajikan hasil pencarian dokumen, setelah itu user dapat memeriksa dan menandai dokumen yang benar-benar relevan Klasifikasi yang digunakan pada penelitian ini adalah fungsi klasifikasi dengan basis vektor, yaitu metode klasifikasi Rocchio. Klasifikasi rocchio merepresentasikan data ke dalam sebuah vektor. Kedekatan kesamaan isi dihitung dari kedekatan sudut yang terbentuk antara bobot data training dan bobot data test menggunakan aturan sodinus. Untuk menghitung bobot setiap kata dalam dokumen digunakan skema pembobotan TFIDF (Term Frequency / Invers Document Frequency) karena komponen heuristic utama adalah dalam klasifikasi rocchio yaitu skema pembobtan tfidf, untuk itu metode pembelajaran rocchio disebut juga dengan TFIDF Classifiers (\cite{Joachims:1997:PAR:645526.657278}). Pendekatan ini menggunakan perhitungan jarak atau kemiripan suatu data dengan pusat sebuah kelas. Metode ini membagi ruang vektor menjadi beberapa bagian berdasarkan centroid yang ada. 
 
 Pada penelitian ini setiap dokumen training direpresentasikan sebagai vektor. Setiap titik atau vektor dokumen traning akan diberikan label sesuai dengan kategori kelasnya. Contohnya saja seperti pada Gambar \ref{fig:rocio} 
 
@@ -225,10 +225,10 @@ sim(d_1, d_2) = \frac{v(d_1).v(d_2)}{|v(d_1)||v(d_2)|}
 Pada penelitian ini pendekatan yang akan digunakan untuk mencari kemiripan antara dua vector adalah pendekatan \textit{similarity}, sedangkan untuk pembobotannya digunakan IDF. Pendekatan ini digunakan karena pendekatan \textit{similarity} mencari kemiripan berdasarkan kesamaan, bukan berdasarkan kedekatan. Sedangkan pada pendekatan jarak, pengukuran dilakukan berdasarkan kedekatan. Kedekatan belum tentu menunjukkan kesamaan antar \textit{term}. Untuk itulah pendekatan menggunakan \textit{similarity} yang akan digunakan, yang selanjutnya diharapkan resiko kesalahan dalam pengambilan dokumen akan lebih sedikit terjadi.
 
 \subsection*{Evaluasi}
-Tahapan evaluasi adalah tahapan untuk mengetahui tingkat akurasi dan kinerja dari hasil klasifikasi menggunakan metode Rocchio. Kinerja klasifikasi dievaluasi dengan cara menghitung nilai akurasi, \textit{recall}, \textit{precision}, dan \textit{F-measure} dengan bantuan tabel \textit{confusion matrix}. \textit{Token} dari hasil seleksi fitur, akan dihitung peluangnya berdasarkan kelas-kelasnya dari dokumen Twitter. Setelah itu, membandingkannya dengan kelas aktual dari data uji dan kelas hasil prediksi dengan menggunakan \textit{confusion matrix}.
-Menurut \citeauthor{MANNING2008} (\cite*{MANNING2008}) terdapat dua parameter yang umum digunakan untuk mengukur kinerja sebuah sistem temu kembali informasi, yaitu \textit{precision} dan \textit{recall} Pengukuran efektivitas dilakukan untuk mengevaluasi system IR. Perlu adanya suatu tolak ukur yang digunakan untuk mengukur kualitas hasil klasifikasi. Pengukuran selanjutnya akan mengunakan nilai precision, recall, akurasi, dan F1. 
+Tahapan evaluasi adalah tahapan untuk mengetahui tingkat kinerja dari hasil klasifikasi menggunakan metode Rocchio. Kinerja klasifikasi dievaluasi dengan cara menghitung nilai akurasi, \textit{recall}, \textit{precision}, dan \textit{F-measure} dengan bantuan tabel \textit{confusion matrix}. \textit{Token} dari hasil seleksi fitur, akan dihitung peluangnya berdasarkan kelas-kelasnya dari dokumen Twitter. Setelah itu, membandingkannya dengan kelas aktual dari data uji dan kelas hasil prediksi dengan menggunakan \textit{confusion matrix}.
+Menurut \citeauthor{MANNING2008} (\cite*{MANNING2008}) terdapat dua parameter yang umum digunakan untuk mengukur kinerja sebuah sistem temu kembali informasi, yaitu \textit{precision} dan \textit{recall} Pengukuran efektivitas dilakukan untuk mengevaluasi system IR. Perlu adanya suatu tolok ukur yang digunakan untuk mengukur kualitas hasil klasifikasi. Pengukuran selanjutnya akan menggunakan nilai precision, recall, akurasi, dan F1. 
 
-\subsection*{Precision}
+\subsubsection*{Precision}
 \textit{Precision} adalah jumlah kelompok dokumen relevan dari total jumlah dokumen yang  ditemukan oleh sistem. \textit{Precision} direpresentasikan sebagai presentase dokumen yang di-retrieve yang benar-benar relevan, seperti yang ditunjukkan pada persamaan
 \begin{equation}
 \begin{split}
@@ -238,7 +238,7 @@ Precision = \frac{\#(relevant items retrieved)}{\#(retrieved items)} \\
 \end{split}
 \end{equation}
 
-\subsection*{Recall}
+\subsubsection*{Recall}
 \textit{Recall} adalah rasio jumlah dokumen relevan yang ditemukan kembali dengan total jumlah dokumen dalam kumpulan dokumen yang dianggap relevan. \textit{Recall} dapat dihitung dengan 
 \begin{equation}
 \begin{split}
@@ -249,7 +249,7 @@ Recall = \frac{\#(relevant items retrieved)}{\#(relevant items)} \\
 \end{equation}
 
 
-\subsection*{Akurasi}
+\subsubsection*{Akurasi}
 Setelah nilai precision dan recall didapatkan keakuratan hasil klasifikasi juga dinilai dari akurasinya, kemudian membandingkannya dengan kelas aktual dari data uji dan kelas hasil prediksi dengan menggunakan \textit{confusion matrix} untuk untuk menghitung akurasi digunakan rumus seperti berikut dan mengacu tabel \textit{confusion matrix} pada Table \ref{tab:konsep}. 
 
 \begin{table}[hbt]
@@ -280,7 +280,7 @@ accuracy = (tp+tn)/(tp+fp+fn+tn)
 \end{equation}
 selanjutnya akan menghasilkan nilai akurasi hasil klasifikasi yang berupa pembagian dari penjumlahaan nilai benar actual positif, negatif , dan netral dengan semua penjumlahan nilai prediksi yang didapat.
 
-\subsection*{F-measure}
+\subsubsection*{F-measure}
 Pengukuran selanjutnya adalah dengan menggunakan F-measure yang merupakan \textit{weighted harmonic mean} dari \textit{precision} dan \textit{recall}.Dimana $\alpha$ $\in$ [0,1] dan $\beta^2$ $\in$ [0, $\Psi$] dengan
 \begin{equation}
 \begin{split}
